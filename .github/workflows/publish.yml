@@ -19,6 +19,5 @@ jobs:
     - name: Build the chaoskube Docker image
       run: |
         docker build . --tag ghcr.io/${{ github.actor }}/chaoskube:latest
-        docker run ghcr.io/${{ github.actor }}/chaoskube:latest
         docker push ghcr.io/${{ github.actor }}/chaoskube:latest
 
