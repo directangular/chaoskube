@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  chaoskube:
+  - apiVersion: v2
+    appVersion: 0.21.0
+    created: "2022-02-17T10:45:13.621818-08:00"
+    description: Chaoskube periodically kills random pods in your Kubernetes cluster.
+    digest: 9e4c089b0da60903f56dbf69f031c6049e1cdec6d849992a64d069a43a18b40e
+    home: https://github.com/linki/chaoskube
+    icon: https://raw.githubusercontent.com/linki/chaoskube/master/chaoskube.png
+    keywords:
+    - chaos-monkey
+    - chaos-engineering
+    maintainers:
+    - name: Martin Linkhorst
+      url: https://github.com/linki
+    - name: Thomas Gosteli
+      url: https://github.com/ghouscht
+    name: chaoskube
+    type: application
+    urls:
+    - chaoskube-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-17T10:45:13.620243-08:00"
